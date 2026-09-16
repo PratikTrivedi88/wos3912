@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #001f3f, #0074D9);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  animation: snow 20s linear infinite;
+}
+
+@keyframes snow {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
+
+.frost-header, .frost-footer {
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.1);
+}
+
+.frost-panel {
+  margin: 20px;
+  padding: 15px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+  animation: frost-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes frost-glow {
+  from { box-shadow: 0 0 10px rgba(0,255,255,0.2); }
+  to { box-shadow: 0 0 25px rgba(0,255,255,0.6); }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #fff;
+  padding: 8px;
+}
