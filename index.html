@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>❄️ Whiteout Survival Event Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="frost-header">
+    <h1>❄️ Whiteout Survival Event Hub</h1>
+    <div id="clocks">
+      <span id="localClock"></span> | <span id="utcClock"></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="countdowns" class="frost-panel"></section>
+    <section id="calendar" class="frost-panel"></section>
+
+    <section id="filters" class="frost-panel">
+      <select id="filterAlliance"></select>
+      <select id="filterType"></select>
+      <input type="date" id="filterDate">
+    </section>
+
+    <section id="rotations" class="frost-panel"></section>
+  </main>
+
+  <footer class="frost-footer">
+    <a href="admin.html">⚙️ Manage Data</a>
+  </footer>
+</body>
+</html>
