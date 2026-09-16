@@ -1,0 +1,23 @@
+{
+  "alliances": ["ATA", "VAL", "DEA", "PKG"],
+  "events": [
+    {
+      "name": "Bear Hunt",
+      "type": "PvE",
+      "alliance": "ATA",
+      "start": "2026-09-20T12:00:00",
+      "end": "2026-09-20T14:00:00"
+    },
+    {
+      "name": "Foundry",
+      "type": "PvP",
+      "alliance": "VAL",
+      "start": "2026-09-21T18:00:00",
+      "end": "2026-09-21T20:00:00"
+    }
+  ],
+  "rotations": [
+    { "date": "2026-09-20", "alliance": "ATA" },
+    { "date": "2026-09-21", "alliance": "VAL" }
+  ]
+}
